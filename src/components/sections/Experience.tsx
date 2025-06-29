@@ -31,7 +31,7 @@ export const Experience: React.FC = () => {
               transition={{ duration: 0.8, delay: index * 0.2 }}
               viewport={{ once: true }}
             >
-              <Card className="p-8">
+              <Card className="p-4 sm:p-8">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
                   <div className="flex items-center mb-4 md:mb-0">
                     <div className="bg-blue-100 p-3 rounded-lg mr-4">

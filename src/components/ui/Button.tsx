@@ -10,6 +10,7 @@ interface ButtonProps {
   target?: string;
   className?: string;
   disabled?: boolean;
+  buttonType?: 'submit' | 'button';
 }
 
 export const Button: React.FC<ButtonProps> = ({
@@ -19,7 +20,8 @@ export const Button: React.FC<ButtonProps> = ({
   onClick,
   href,
   className = '',
-  disabled = false
+  disabled = false,
+  buttonType
 }) => {
   const baseClasses = 'inline-flex items-center justify-center font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2';
   
@@ -61,6 +63,7 @@ export const Button: React.FC<ButtonProps> = ({
       disabled={disabled}
       whileHover={{ scale: disabled ? 1 : 1.05 }}
       whileTap={{ scale: disabled ? 1 : 0.95 }}
+      type={buttonType}
     >
       {children}
     </MotionComponent>

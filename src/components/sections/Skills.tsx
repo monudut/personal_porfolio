@@ -50,7 +50,7 @@ export const Skills: React.FC = () => {
                 transition={{ duration: 0.8, delay: categoryIndex * 0.2 }}
                 viewport={{ once: true }}
               >
-                <Card className="p-6 h-full">
+                <Card className="p-4 sm:p-6 h-full">
                   <div className="text-center mb-6">
                     <div className={`bg-${config.color}-100 p-3 rounded-lg inline-block mb-3`}>
                       <Icon className={`text-${config.color}-600`} size={24} />

@@ -37,7 +37,7 @@ export const Contact: React.FC = () => {
 
   return (
     <Section id="contact" background="gray">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 sm:max-w-7xl">
         <motion.div
           className="text-center mb-16"
           initial={{ opacity: 0, y: 50 }}
@@ -55,7 +55,7 @@ export const Contact: React.FC = () => {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="sm:grid lg:grid-cols-2 gap-12">
           {/* Contact Form */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -63,7 +63,7 @@ export const Contact: React.FC = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <Card className="p-8">
+            <Card className="p-4 sm:p-8 sm:mb-0 mb-5">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Send Message</h3>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
@@ -128,7 +128,7 @@ export const Contact: React.FC = () => {
                     placeholder="Tell me about your project or just say hello!"
                   />
                 </div>
-                <Button type="submit" size="lg" className="w-full">
+                <Button buttonType="submit" size="lg" className="w-full">
                   <Send className="mr-2" size={20} />
                   Send Message
                 </Button>
@@ -144,7 +144,7 @@ export const Contact: React.FC = () => {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            <Card className="p-8">
+            <Card className="p-4 sm:p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
               <div className="space-y-6">
                 {contactInfo.map((item, index) => (
@@ -172,7 +172,7 @@ export const Contact: React.FC = () => {
               </div>
             </Card>
 
-            <Card className="p-8">
+            <Card className="p-4 sm:p-8">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Let's Connect</h3>
               <p className="text-gray-600 mb-6">
                 I'm always interested in hearing about new projects and opportunities. 

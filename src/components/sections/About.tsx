@@ -36,7 +36,7 @@ export const About: React.FC = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <Card className="p-8">
+            <Card className="p-4 sm:p-8">
               <div className="flex items-center mb-6">
                 <User className="text-blue-600 mr-3" size={28} />
                 <h3 className="text-2xl font-bold text-gray-900">Who I Am</h3>

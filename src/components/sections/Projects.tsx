@@ -58,7 +58,7 @@ export const Projects: React.FC = () => {
                       </motion.div>
                     </div>
                   </div>
-                <div className="p-6">
+                <div className="p-4 sm:p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">{project.title}</h3>
                   <p className="text-gray-600 mb-4">{project.description}</p>
                   
@@ -114,7 +114,7 @@ export const Projects: React.FC = () => {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   viewport={{ once: true }}
                 >
-                  <Card className="p-6 h-full">
+                  <Card className="p-4 sm:p-6 h-full">
                     <h4 className="text-lg font-bold text-gray-900 mb-2">{project.title}</h4>
                     <p className="text-gray-600 mb-4 text-sm">{project.description}</p>
                     
