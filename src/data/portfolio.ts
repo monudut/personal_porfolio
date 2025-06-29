@@ -23,7 +23,11 @@ export const projects: Project[] = [
     id: "1",
     title: "E-Job Platform",
     description: "A comprehensive e-job solution built with React and Node.js, featuring user authentication, payment integration, Manges Jobs, Manage Candidates, and Admin and Recruiter dashboard analytics.",
-    image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
+    images: [
+      '/assets/images/job-1.png',
+      '/assets/images/job-2.png',
+      '/assets/images/job-3.png'
+    ],
     technologies: ["React", "Node.js", "MySql", "Express.js", "Talwind CSS", "MUI"],
     githubUrl: "https://github.com/kaushikdutta/ecommerce-platform",
     // liveUrl: "https://ecommerce-demo.kaushikdutta.dev",
@@ -33,8 +37,8 @@ export const projects: Project[] = [
     id: "3",
     title: "The Mood Space",
     description: "Designed responsive, mobile-friendly UI components with seamless cross-device experience. Managed state using Redux/Context API.",
-    image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800",
     technologies: ["React", "Next.js", "Talwind CSS", "MUI"],
+    images: [],
     // githubUrl: "https://github.com/kaushikdutta/weather-dashboard",
     // liveUrl: "https://weather.kaushikdutta.dev",
     featured: false
@@ -43,8 +47,8 @@ export const projects: Project[] = [
     id: "4",
     title: "Dealer Management System",
     description: "Led 100% development of dealer management system with dynamic dashboards and role-based modules.",
-    image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800",
     technologies: ["Angular", "TypeScript", "Angular Material", "Highcharts", "TinyMCE"],
+    images: [],
     // githubUrl: "https://github.com/kaushikdutta/social-analytics",
     featured: false
   },
@@ -52,8 +56,8 @@ export const projects: Project[] = [
     id: "5",
     title: "Insurance & Claim Management",
     description: "Built accessible UI components with complete admin/user role-based modules for enhanced system control.",
-    image: "https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=800",
     technologies: ["Angular", "TypeScript", "Angular Material", "Highcharts"],
+    images: [],
     // githubUrl: "https://github.com/kaushikdutta/lms-platform",
     // liveUrl: "https://lms.kaushikdutta.dev",
     featured: false
@@ -62,8 +66,8 @@ export const projects: Project[] = [
     id: "6",
     title: "Greenlam CSRP(Customer Service Platform)",
     description: "Contributed to 30% of core functionalities with dashboards for tracking customer concerns.",
-    image: "https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=800",
     technologies: ["Angular", "TypeScript", "Angular Material", "Highcharts"],
+    images: [],
     // githubUrl: "https://github.com/kaushikdutta/lms-platform",
     // liveUrl: "https://lms.kaushikdutta.dev",
     featured: false
