@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
 
   return (
     <footer className="bg-gray-900 text-white py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto sm:px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center space-y-6">
           {/* Social Links */}
           <div className="flex space-x-6">
